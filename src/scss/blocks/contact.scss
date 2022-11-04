@@ -4,7 +4,7 @@
 	height: 57px;
 	font-weight: 400;
 	font-size: 14px;
-	padding: 20px 10px;
+	padding: 20px 10px 20px 20px;
 	background: transparent;
 	color: $white;
 
@@ -21,7 +21,8 @@
 }
 
 .contact__main {
-	margin-top: 31px;
+	margin: 31px auto 0;
+	max-width: 770px;
 }
 
 .contact__btn {
@@ -31,4 +32,9 @@
 
 	color: #4F6EA4;
 	border-radius: 45px;
+}
+
+.contact__input,
+.contact__btn {
+	flex-basis: 32%;
 }

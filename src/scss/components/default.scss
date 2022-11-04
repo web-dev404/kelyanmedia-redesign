@@ -3,6 +3,8 @@ body {
   position: relative;
   color: $white;
 
+  font-family: sans-serif;
+
   &.active-body {
     overflow: hidden;
   }
@@ -27,6 +29,10 @@ button {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
+
+  &--big {
+    max-width: 1150px;
+  }
 }
 
 .content {

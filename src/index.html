@@ -2,102 +2,231 @@
 "title": "Главная"
 })
 
-@@include('html/km-text.html', {})
 
-<div class="main-blocks">
-	@@include('html/header.html', {})
+<div class="pos-r">
+	@@include('html/km-text.html', {})
 
-	<div class="advantages">
+	<div class="main-blocks">
+		@@include('html/header.html', {})
+
+		<div class="advantages">
+			<div class="container">
+				<h2 class="title">наши преимущества</h2>
+
+				<div class="advantages__main d-f ai-cen jc-sp">
+					<div class="advantages__text-block">
+						<div class="advantages__item">
+							<p class="advantages__number">80+</p>
+							<p class="advantages__text">клиенты с 7 стран мира</p>
+						</div>
+
+						<div class="advantages__item">
+							<p class="advantages__number">125+</p>
+							<p class="advantages__text">более 25 клиентов</p>
+						</div>
+
+						<div class="advantages__item">
+							<p class="advantages__number">4+</p>
+							<p class="advantages__text">опыт работы более 3 лет</p>
+						</div>
+
+						<div class="advantages__item">
+							<p class="advantages__number">30+</p>
+							<p class="advantages__text">работа более чем 15 нишах</p>
+						</div>
+					</div>
+
+					<img src="img/advantages.jpg" alt="advantages">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="services">
 		<div class="container">
-			<h2 class="title">наши преимущества</h2>
+			<h2 class="title title--black">наши услуги</h2>
 
-			<div class="advantages__main d-f ai-cen jc-sp">
-				<div class="advantages__text-block">
-					<div class="advantages__item">
-						<p class="advantages__number">80+</p>
-						<p class="advantages__text">клиенты с 7 стран мира</p>
-					</div>
+			<div class="services__main d-f jc-sp">
+				<div class="services__item d-f ai-start jc-sp flex-direction-column">
+					<img class="services__img" src="img/services/1.jpg" alt="service">
+					<p class="services__number">(1)</p>
 
-					<div class="advantages__item">
-						<p class="advantages__number">125+</p>
-						<p class="advantages__text">более 25 клиентов</p>
-					</div>
-
-					<div class="advantages__item">
-						<p class="advantages__number">4+</p>
-						<p class="advantages__text">опыт работы более 3 лет</p>
-					</div>
-
-					<div class="advantages__item">
-						<p class="advantages__number">30+</p>
-						<p class="advantages__text">работа более чем 15 нишах</p>
+					<div class="w-100 d-f ai-cen jc-sp">
+						<p class="services__title">Веб-разработка</p>
+						<img class="services__arrow" src="img/icons/icons.svg#arrow-right" alt="arrow right">
 					</div>
 				</div>
 
-				<img src="img/advantages.jpg" alt="advantages">
-			</div>
-		</div>
-	</div>
-</div>
+				<div class="services__item d-f ai-start jc-sp flex-direction-column">
+					<img class="services__img" src="img/services/2.jpg" alt="service">
+					<p class="services__number">(2)</p>
 
-<div class="services">
-	<div class="container">
-		<h2 class="title title--black">наши услуги</h2>
-
-		<div class="services__main d-f jc-sp">
-			<div class="services__item d-f ai-start jc-sp flex-direction-column">
-				<img class="services__img" src="img/services/1.jpg" alt="service">
-				<p class="services__number">(1)</p>
-
-				<div class="w-100 d-f ai-cen jc-sp">
-					<p class="services__title">Веб-разработка</p>
-					<img class="services__arrow" src="img/icons/icons.svg#arrow-right" alt="arrow right">
+					<div class="w-100 d-f ai-cen jc-sp">
+						<p class="services__title">СММ</p>
+						<img class="services__arrow" src="img/icons/icons.svg#arrow-right" alt="arrow right">
+					</div>
 				</div>
-			</div>
 
-			<div class="services__item d-f ai-start jc-sp flex-direction-column">
-				<img class="services__img" src="img/services/2.jpg" alt="service">
-				<p class="services__number">(2)</p>
+				<div class="services__item d-f ai-start jc-sp flex-direction-column">
+					<img class="services__img" src="img/services/3.jpg" alt="service">
+					<p class="services__number">(3)</p>
 
-				<div class="w-100 d-f ai-cen jc-sp">
-					<p class="services__title">СММ</p>
-					<img class="services__arrow" src="img/icons/icons.svg#arrow-right" alt="arrow right">
+					<div class="w-100 d-f ai-cen jc-sp">
+						<p class="services__title">SEO</p>
+						<img class="services__arrow" src="img/icons/icons.svg#arrow-right" alt="arrow right">
+					</div>
 				</div>
-			</div>
 
-			<div class="services__item d-f ai-start jc-sp flex-direction-column">
-				<img class="services__img" src="img/services/3.jpg" alt="service">
-				<p class="services__number">(3)</p>
+				<div class="services__item d-f ai-start jc-sp flex-direction-column">
+					<img class="services__img" src="img/services/4.jpg" alt="service">
+					<p class="services__number">(4)</p>
 
-				<div class="w-100 d-f ai-cen jc-sp">
-					<p class="services__title">SEO</p>
-					<img class="services__arrow" src="img/icons/icons.svg#arrow-right" alt="arrow right">
-				</div>
-			</div>
-
-			<div class="services__item d-f ai-start jc-sp flex-direction-column">
-				<img class="services__img" src="img/services/4.jpg" alt="service">
-				<p class="services__number">(4)</p>
-
-				<div class="w-100 d-f ai-cen jc-sp">
-					<p class="services__title">Разработка логотипов и брендбуков</p>
-					<img class="services__arrow" src="img/icons/icons.svg#arrow-right" alt="arrow right">
+					<div class="w-100 d-f ai-cen jc-sp">
+						<p class="services__title">Разработка логотипов и брендбуков</p>
+						<img class="services__arrow" src="img/icons/icons.svg#arrow-right" alt="arrow right">
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
-<div class="contact">
-	<div class="container">
-		<h2 class="title">оставить заявку</h2>
+	<div class="contact">
+		<div class="container">
+			<h2 class="title">оставить заявку</h2>
 
-		<form class="contact__main d-f jc-sp">
-			<input class="contact__input" type="text" placeholder="Ваше имя">
-			<input class="contact__input" type="tel" placeholder="Номер телефона">
-			<button class="contact__btn">Отправить</button>
-		</form>
+			<form class="contact__main d-f jc-sp">
+				<input class="contact__input" type="text" placeholder="Ваше имя">
+				<input class="contact__input" type="tel" placeholder="Номер телефона">
+				<button class="contact__btn">Отправить</button>
+			</form>
+		</div>
 	</div>
-</div>
 
-@@include('html/footer.html', {})
+	<div class="clients-reviews">
+		<div class="container">
+			<h2 class="title">клиенты и отзывы</h2>
+
+			<div class="clients-reviews__main d-f ai-cen jc-sp">
+				<div class="clients">
+					<img class="clients__img" src="img/clients/1.png" alt="clients img">
+					<img class="clients__img" src="img/clients/2.png" alt="clients img">
+					<img class="clients__img" src="img/clients/3.png" alt="clients img">
+					<img class="clients__img" src="img/clients/4.png" alt="clients img">
+					<img class="clients__img" src="img/clients/5.png" alt="clients img">
+					<img class="clients__img" src="img/clients/6.png" alt="clients img">
+					<img class="clients__img" src="img/clients/7.png" alt="clients img">
+					<img class="clients__img" src="img/clients/8.png" alt="clients img">
+					<img class="clients__img" src="img/clients/9.png" alt="clients img">
+					<img class="clients__img" src="img/clients/10.png" alt="clients img">
+					<img class="clients__img" src="img/clients/11.png" alt="clients img">
+					<img class="clients__img" src="img/clients/12.png" alt="clients img">
+					<img class="clients__img" src="img/clients/13.png" alt="clients img">
+					<img class="clients__img" src="img/clients/14.png" alt="clients img">
+					<img class="clients__img" src="img/clients/15.png" alt="clients img">
+					<img class="clients__img" src="img/clients/16.png" alt="clients img">
+				</div>
+
+				<div class="reviews">
+					<div class="reivews__item d-f ai-cen jc-sp">
+						<img class="reviews__img" src="img/reviews/1.png" alt="review">
+
+						<div>
+							<p class="reviews__title">Oceaanixx</p>
+							<p class="reviews__text">Оставьте свои контактные данные и мы обсудим ваш проект, после чего начнем
+								готовить подходящие концепции для
+								того</p>
+						</div>
+					</div>
+
+					<div class="reivews__item d-f ai-cen jc-sp">
+						<img class="reviews__img" src="img/reviews/1.png" alt="review">
+
+						<div>
+							<p class="reviews__title">Oceaanixx</p>
+							<p class="reviews__text">Оставьте свои контактные данные и мы обсудим ваш проект, после чего начнем
+								готовить
+								подходящие концепции для
+								того</p>
+						</div>
+					</div>
+
+					<div class="reivews__item d-f ai-cen jc-sp">
+						<img class="reviews__img" src="img/reviews/1.png" alt="review">
+
+						<div>
+							<p class="reviews__title">Oceaanixx</p>
+							<p class="reviews__text">Оставьте свои контактные данные и мы обсудим ваш проект, после чего начнем
+								готовить
+								подходящие концепции для
+								того</p>
+						</div>
+					</div>
+
+					<div class="reivews__item d-f ai-cen jc-sp">
+						<img class="reviews__img" src="img/reviews/1.png" alt="review">
+
+						<div>
+							<p class="reviews__title">Oceaanixx</p>
+							<p class="reviews__text">Оставьте свои контактные данные и мы обсудим ваш проект, после чего начнем
+								готовить
+								подходящие концепции для
+								того</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="order">
+		<div class="container">
+			<h2 class="title">отправить заявку</h2>
+
+			<form class="order__main d-f jc-sp">
+				<div class="order__inputs d-f flex-direction-column">
+					<input class="order__input" placeholder="Ваше имя" type="text">
+					<input class="order__input" placeholder="Ваше телефон" type="tel">
+					<input class="order__input" placeholder="Ваше Email" type="email">
+					<textarea class="order__textarea" placeholder="Текст"></textarea>
+				</div>
+
+				<div class="d-f flex-direction-column jc-sp">
+					<div>
+						<h3 class="order__subtitle">Выберите услуги</h3>
+
+						<div class="order-checkbox__item d-f ai-cen">
+							<input id="order-checkbox__input1" class="order-checkbox__input" type="checkbox">
+							<label for="order-checkbox__input1" class="order-checkbox__label">Разработка сайта</label>
+						</div>
+
+						<div class="order-checkbox__item d-f ai-cen">
+							<input id="order-checkbox__input2" class="order-checkbox__input" type="checkbox">
+							<label for="order-checkbox__input2" class="order-checkbox__label">Контекстная реклама</label>
+						</div>
+
+						<div class="order-checkbox__item d-f ai-cen">
+							<input id="order-checkbox__input3" class="order-checkbox__input" type="checkbox">
+							<label for="order-checkbox__input3" class="order-checkbox__label">Продвижение</label>
+						</div>
+
+						<div class="order-checkbox__item d-f ai-cen">
+							<input id="order-checkbox__input4" class="order-checkbox__input" type="checkbox">
+							<label for="order-checkbox__input4" class="order-checkbox__label">Разработка сайта</label>
+						</div>
+
+						<div class="order-checkbox__item d-f ai-cen">
+							<input id="order-checkbox__input5" class="order-checkbox__input" type="checkbox">
+							<label for="order-checkbox__input5" class="order-checkbox__label">Дизайн</label>
+						</div>
+					</div>
+
+					<button class="order__btn d-f ai-cen jc-sp">
+						Отправить
+						<img class="order-btn__arrow" src="img/icons/icons.svg#arrow-right2" alt="arrow right 2">
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	@@include('html/footer.html', {})
