@@ -1,0 +1,103 @@
+@@include('html/head.html', {
+"title": "Главная"
+})
+
+@@include('html/km-text.html', {})
+
+<div class="main-blocks">
+	@@include('html/header.html', {})
+
+	<div class="advantages">
+		<div class="container">
+			<h2 class="title">наши преимущества</h2>
+
+			<div class="advantages__main d-f ai-cen jc-sp">
+				<div class="advantages__text-block">
+					<div class="advantages__item">
+						<p class="advantages__number">80+</p>
+						<p class="advantages__text">клиенты с 7 стран мира</p>
+					</div>
+
+					<div class="advantages__item">
+						<p class="advantages__number">125+</p>
+						<p class="advantages__text">более 25 клиентов</p>
+					</div>
+
+					<div class="advantages__item">
+						<p class="advantages__number">4+</p>
+						<p class="advantages__text">опыт работы более 3 лет</p>
+					</div>
+
+					<div class="advantages__item">
+						<p class="advantages__number">30+</p>
+						<p class="advantages__text">работа более чем 15 нишах</p>
+					</div>
+				</div>
+
+				<img src="img/advantages.jpg" alt="advantages">
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="services">
+	<div class="container">
+		<h2 class="title title--black">наши услуги</h2>
+
+		<div class="services__main d-f jc-sp">
+			<div class="services__item d-f ai-start jc-sp flex-direction-column">
+				<img class="services__img" src="img/services/1.jpg" alt="service">
+				<p class="services__number">(1)</p>
+
+				<div class="w-100 d-f ai-cen jc-sp">
+					<p class="services__title">Веб-разработка</p>
+					<img class="services__arrow" src="img/icons/icons.svg#arrow-right" alt="arrow right">
+				</div>
+			</div>
+
+			<div class="services__item d-f ai-start jc-sp flex-direction-column">
+				<img class="services__img" src="img/services/2.jpg" alt="service">
+				<p class="services__number">(2)</p>
+
+				<div class="w-100 d-f ai-cen jc-sp">
+					<p class="services__title">СММ</p>
+					<img class="services__arrow" src="img/icons/icons.svg#arrow-right" alt="arrow right">
+				</div>
+			</div>
+
+			<div class="services__item d-f ai-start jc-sp flex-direction-column">
+				<img class="services__img" src="img/services/3.jpg" alt="service">
+				<p class="services__number">(3)</p>
+
+				<div class="w-100 d-f ai-cen jc-sp">
+					<p class="services__title">SEO</p>
+					<img class="services__arrow" src="img/icons/icons.svg#arrow-right" alt="arrow right">
+				</div>
+			</div>
+
+			<div class="services__item d-f ai-start jc-sp flex-direction-column">
+				<img class="services__img" src="img/services/4.jpg" alt="service">
+				<p class="services__number">(4)</p>
+
+				<div class="w-100 d-f ai-cen jc-sp">
+					<p class="services__title">Разработка логотипов и брендбуков</p>
+					<img class="services__arrow" src="img/icons/icons.svg#arrow-right" alt="arrow right">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="contact">
+	<div class="container">
+		<h2 class="title">оставить заявку</h2>
+
+		<form class="contact__main d-f jc-sp">
+			<input class="contact__input" type="text" placeholder="Ваше имя">
+			<input class="contact__input" type="tel" placeholder="Номер телефона">
+			<button class="contact__btn">Отправить</button>
+		</form>
+	</div>
+</div>
+
+@@include('html/footer.html', {})

@@ -1,0 +1,69 @@
+body {
+  overflow-x: hidden;
+  position: relative;
+  color: $white;
+
+  &.active-body {
+    overflow: hidden;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 36px;
+}
+
+a,
+button {
+  color: $white;
+}
+
+.container {
+  max-width: 1130px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.content {
+  flex-basis: 100%;
+}
+
+.main-blocks {
+  background-image: url('../img/bg-main.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pos-r {
+  position: relative;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 35px;
+  text-align: center;
+  text-transform: uppercase;
+
+  &--black {
+    color: $black;
+  }
+}
+
+.h1 {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  /* or 114% */
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}

@@ -1,0 +1,30 @@
+.advantages__item {
+	flex-basis: 30%;
+}
+
+.advantages__number {
+	font-weight: 700;
+	font-size: 45px;
+	/* identical to box height */
+
+
+	color: #4F6EA4;
+
+}
+
+.advantages__text {
+	font-weight: 800;
+	font-size: 16px;
+
+	color: #FFFFFF;
+}
+
+.advantages__text-block {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 65px 20px;
+}
+
+.advantages__main {
+	margin-top: 40px;
+}
