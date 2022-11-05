@@ -3,7 +3,8 @@ body {
   position: relative;
   color: $white;
 
-  font-family: sans-serif;
+  font-family: p22undergroundcyprobook, sans-serif;
+  font-weight: 400;
 
   &.active-body {
     overflow: hidden;
@@ -34,6 +35,10 @@ button {
     max-width: 1150px;
     position: relative;
   }
+
+  &--sm {
+    max-width: 750px;
+  }
 }
 
 .content {
@@ -51,10 +56,11 @@ button {
 }
 
 .title {
-  font-weight: 800;
+  font-weight: 700;
   font-size: 35px;
   text-align: center;
   text-transform: uppercase;
+  font-family: FuturaPT;
 
   &--black {
     color: $black;
