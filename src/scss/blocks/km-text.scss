@@ -39,7 +39,7 @@
 		}
 
 		p {
-			margin: 20px 0;
+			margin: 32px 0;
 			writing-mode: vertical-rl;
 			pointer-events: none;
 			user-select: none;
@@ -51,10 +51,10 @@
 
 @keyframes scrollText {
 	from {
-		transform: translateY(0%);
+		transform: translateY(-50%);
 	}
 
 	to {
-		transform: translateY(-50%);
+		transform: translateY(0);
 	}
 }

@@ -32,6 +32,7 @@ button {
 
   &--big {
     max-width: 1150px;
+    position: relative;
   }
 }
 
@@ -67,11 +68,23 @@ button {
 .h1 {
   font-weight: 700;
   font-size: 70px;
-  line-height: 80px;
-  /* or 114% */
+  line-height: 114%;
 
   text-align: center;
   text-transform: uppercase;
+
+  &--hidden {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+}
+
+.h1__top {
+  position: relative;
+  z-index: 1;
 }
 
 .flex-grow {
