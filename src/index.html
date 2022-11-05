@@ -178,55 +178,6 @@
 		</div>
 	</div>
 
-	<div class="order">
-		<div class="container">
-			<h2 class="title">отправить заявку</h2>
-
-			<form class="order__main d-f jc-sp">
-				<div class="order__inputs d-f flex-direction-column">
-					<input class="order__input" placeholder="Ваше имя" type="text">
-					<input class="order__input" placeholder="Ваше телефон" type="tel">
-					<input class="order__input" placeholder="Ваше Email" type="email">
-					<textarea class="order__textarea" placeholder="Текст"></textarea>
-				</div>
-
-				<div class="d-f flex-direction-column jc-sp">
-					<div>
-						<h3 class="order__subtitle">Выберите услуги</h3>
-
-						<div class="order-checkbox__item d-f ai-cen">
-							<input id="order-checkbox__input1" class="order-checkbox__input" type="checkbox">
-							<label for="order-checkbox__input1" class="order-checkbox__label">Разработка сайта</label>
-						</div>
-
-						<div class="order-checkbox__item d-f ai-cen">
-							<input id="order-checkbox__input2" class="order-checkbox__input" type="checkbox">
-							<label for="order-checkbox__input2" class="order-checkbox__label">Контекстная реклама</label>
-						</div>
-
-						<div class="order-checkbox__item d-f ai-cen">
-							<input id="order-checkbox__input3" class="order-checkbox__input" type="checkbox">
-							<label for="order-checkbox__input3" class="order-checkbox__label">Продвижение</label>
-						</div>
-
-						<div class="order-checkbox__item d-f ai-cen">
-							<input id="order-checkbox__input4" class="order-checkbox__input" type="checkbox">
-							<label for="order-checkbox__input4" class="order-checkbox__label">Разработка сайта</label>
-						</div>
-
-						<div class="order-checkbox__item d-f ai-cen">
-							<input id="order-checkbox__input5" class="order-checkbox__input" type="checkbox">
-							<label for="order-checkbox__input5" class="order-checkbox__label">Дизайн</label>
-						</div>
-					</div>
-
-					<button class="order__btn d-f ai-cen jc-sp">
-						Отправить
-						<img class="order-btn__arrow" src="img/icons/icons.svg#arrow-right2" alt="arrow right 2">
-					</button>
-				</div>
-			</form>
-		</div>
-	</div>
+	@@include('html/order.html', {})
 
 	@@include('html/footer.html', {})
