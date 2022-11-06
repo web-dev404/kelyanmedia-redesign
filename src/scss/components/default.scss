@@ -32,7 +32,7 @@ button {
   margin: 0 auto;
 
   &--big {
-    max-width: 1150px;
+    max-width: 1300px;
     position: relative;
   }
 
@@ -69,6 +69,14 @@ button {
   &--left {
     text-align: left;
   }
+
+    @media($media_md2) {
+      font-size: 30px;
+    }
+
+    @media($media_sm2) {
+      font-size: 26px;
+    }
 }
 
 .h1 {
@@ -86,6 +94,10 @@ button {
     transform: translate(-50%, -50%);
     width: 100%;
   }
+
+  @media($media_lg2) {
+    font-size: 40px;
+  }
 }
 
 .h1__top {
@@ -95,4 +107,12 @@ button {
 
 .flex-grow {
   flex-grow: 1;
+}
+
+.section {
+  padding-left: 50px !important;
+
+  @media($media_lg3) {
+    padding-left: 0 !important;
+  }
 }

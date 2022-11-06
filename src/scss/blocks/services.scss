@@ -5,6 +5,15 @@
 	grid-gap: 0 2px;
 	padding: 18px 28px;
 
+	@media($media_lg3) {
+		padding: 15px;
+		height: 300px;
+	}
+
+	@media($media_md) {
+		flex-basis: 49%;
+	}
+
 	&:after {
 		content: '';
 		position: absolute;
@@ -106,6 +115,11 @@
 
 .services__main {
 	margin-top: 70px;
+	grid-gap: 20px 0;
+
+	@media($media_md) {
+		flex-wrap: wrap;
+	}
 }
 
 .services {

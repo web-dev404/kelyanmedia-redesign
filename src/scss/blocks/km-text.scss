@@ -11,6 +11,10 @@
 	border-right: 0.5px solid #585858;
 	padding: 0 8px;
 
+	@media($media_lg3) {
+		display: none;
+	}
+
 	&__title {
 		display: flex;
 		flex-direction: column;

@@ -6,6 +6,13 @@
 
 .order__main {
 	margin-top: 60px;
+	grid-gap: 50px 0;
+
+	@media($media_sm) {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
 }
 
 .order__input {
@@ -53,6 +60,10 @@
 	padding: 13px 26px;
 	display: block;
 	font-weight: 700;
+
+	@media($media_sm) {
+		margin-top: 30px;
+	}
 }
 
 .order-btn__arrow {

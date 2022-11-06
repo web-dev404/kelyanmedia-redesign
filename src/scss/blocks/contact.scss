@@ -24,15 +24,27 @@
 	margin: 31px auto 0;
 	max-width: 770px;
 	font-family: FuturaPT;
+	grid-gap: 20px 10px;
+
+	@media($media_sm) {
+		justify-content: flex-start;
+		flex-direction: column;
+	}
 }
 
 .contact__btn {
 	border: 2px solid #4F6EA4;
 	font-weight: 700;
 	font-size: 17px;
+	height: 57px;
 
 	color: #4F6EA4;
 	border-radius: 45px;
+
+	@media($media_sm) {
+		padding: 20px;
+
+	}
 }
 
 .contact__input,

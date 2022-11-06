@@ -28,6 +28,10 @@
 .reviews__img {
 	display: block;
 	margin-right: 17px;
+
+	@media($media_sm2) {
+		max-width: 70px;
+	}
 }
 
 .reivews__item {
@@ -38,8 +42,12 @@
 }
 
 .clients-reviews__main {
-	grid-gap: 10px;
+	grid-gap: 60px 10px;
 	margin-top: 40px;
+
+	@media($media_lg) {
+		flex-direction: column;
+	}
 }
 
 .reviews {
