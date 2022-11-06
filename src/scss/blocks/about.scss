@@ -63,3 +63,131 @@
 .about-best__stats {
 	grid-gap: 45px 0;
 }
+
+.about-promotion__main {
+	font-family: FuturaPT;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 26px;
+
+	img {
+		width: 83px;
+		height: 83px;
+		margin-right: 21px;
+	}
+
+	p {
+		font-weight: 700;
+		font-size: 18px;
+		color: #151515;
+	}
+}
+
+.about__promotion {
+	margin: 64px 0 48px;
+}
+
+.about-promotion__gray {
+	font-size: 14px;
+	color: #858585;
+	margin-top: 35px;
+}
+
+.about__mission {
+	background: #EDEDED;
+	padding: 52px 0;
+}
+
+.about-mission__header {
+	p {
+		font-weight: 700;
+		font-size: 23px;
+
+		color: #151515;
+		margin-left: 13px;
+	}
+}
+
+.about-mission__li {
+	position: relative;
+	padding-left: 20px;
+	font-size: 15px;
+	margin-bottom: 13px;
+	color: #858585;
+
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+
+	&:before {
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 0;
+		transform: translateY(-50%);
+		width: 12px;
+		height: 12px;
+		background: #4F6EA4;
+		border-radius: 50%;
+	}
+}
+
+.about-mission__item {
+	flex-basis: 48%;
+}
+
+.about-why__main {
+	font-size: 14px;
+	margin-top: 25px;
+
+	color: #858585;
+
+	p {
+		max-width: 450px;
+	}
+}
+
+.about__why {
+	padding: 64px 0 69px;
+}
+
+.about-team__main {
+	margin-top: 34px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 51px 20px;
+}
+
+.about-team__item {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+	img {
+		display: block;
+		border-radius: 20px;
+		max-width: 256px;
+		height: 256px;
+		object-fit: cover;
+	}
+
+	h3 {
+		font-weight: 700;
+		font-size: 22px;
+		margin: 22px 0 6px;
+
+		color: #303030;
+	}
+	
+	p {
+		font-size: 17px;
+		color: #858585;
+	}
+}
+
+.about__team {
+	padding: 58px 0 63px;
+	background: #EDEDED;
+}
