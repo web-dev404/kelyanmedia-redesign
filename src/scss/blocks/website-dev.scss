@@ -31,6 +31,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 55px 0;
+	font-family: FuturaPT;
 }
 
 .website-dev-types__main {
@@ -91,4 +92,43 @@
 	bottom: 0;
 	right: 0;
 
+}
+
+.website-dev__tasks {
+	padding: 58px 0 65px;
+	font-family: FuturaPT;
+}
+
+.website-dev-tasks__main {
+	margin-top: 42px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 42px 14px;
+}
+
+.website-dev-tasks__num {
+	font-weight: 700;
+	font-size: 30px;
+
+	color: #4F6EA4;
+}
+
+.website-dev-tasks__item {
+	grid-gap: 19px;
+}
+
+.website-dev-tasks__title {
+	font-weight: 700;
+	font-size: 18px;
+	color: #151515;
+}
+
+.website-dev-tasks__text {
+	font-size: 14px;
+	margin-top: 11px;
+	color: #858585;
+}
+
+.website-dev {
+	font-family: FuturaPT;
 }

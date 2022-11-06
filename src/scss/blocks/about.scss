@@ -1,0 +1,65 @@
+.about__main {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.about {
+	font-family: FuturaPT;
+}
+
+.about__text {
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: 23px;
+	color: #858585;
+	max-width: 530px;
+}
+
+.about-best__item {
+	flex-basis: 49%;
+	text-align: center;
+}
+
+.about-best__num {
+	font-weight: 700;
+	font-size: 40px;
+	font-family: SFUIDisplay;
+	margin-bottom: 5px;
+
+	color: #4F6EA4;
+}
+
+.about-best__subtext {
+	font-size: 14px;
+
+	color: #858585;
+}
+
+.about-best__title {
+	font-weight: 700;
+	font-size: 35px;
+	/* or 114% */
+
+
+	color: #151515;
+	margin-bottom: 23px;
+}
+
+.about-best__text {
+	font-size: 14px;
+
+	color: #858585;
+}
+
+.about__best {
+	margin-top: 87px;
+}
+
+.about-best__text-block {
+	max-width: 420px;
+}
+
+.about-best__stats {
+	grid-gap: 45px 0;
+}

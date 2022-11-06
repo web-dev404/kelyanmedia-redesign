@@ -1,0 +1,137 @@
+.marketing-types__title {
+	font-weight: 700;
+	font-size: 37px;
+	line-height: 80px;
+	/* identical to box height, or 216% */
+
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.marketing__types {
+	font-family: FuturaPT;
+}
+
+.marketing-types__subtitle {
+	font-size: 15px;
+}
+
+.marketing-types__item {
+	border-radius: 50%;
+	width: 186px;
+	height: 186px;
+	border: 16px solid rgba(79, 110, 164, 0.19);
+	background: #232323;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.marketing-types__main {
+	grid-gap: 63px;
+}
+
+.marketing__types {
+	margin: 80px 0 90px;
+}
+
+.marketing-road__main {
+	margin-top: 46px;
+}
+
+.marketing-road__item {
+	font-family: FuturaPT;
+	grid-gap: 52px;
+	margin-bottom: 31px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.marketing-road__title {
+	font-weight: 700;
+	font-size: 21px;
+	/* identical to box height, or 119% */
+
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.marketing-road__text-block {
+	clip-path: polygon(0 0, 75% 0%, 100% 50%, 75% 100%, 0 100%, 0% 50%);
+	padding: 32px;
+	background: rgba(42, 42, 42, 0.61);
+	flex-grow: 1;
+
+	&--left {
+		clip-path: polygon(25% 0, 100% 0, 100% 50%, 100% 100%, 25% 100%, 0% 50%);
+		padding-left: 250px;
+	}
+}
+
+.marketing-road__text {
+	color: #858585;
+	font-size: 14px;
+	margin-top: 13px;
+	max-width: 580px;
+}
+
+.marketing__road {
+	background-image: url('../img/bg-main.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 55px 0;
+}
+
+.marketing-road__num {
+	border: 11px solid rgba(79, 110, 164, 0.19);
+	background: transparent;
+	width: 132px;
+	height: 132px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 700;
+	font-size: 60px;
+	/* or 133% */
+
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.marketing-in__main {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 46px;
+}
+
+.marketing-in__item {
+	border: 1px solid #D9D9D9;
+	font-family: SFUIDisplay;
+	height: 368px;
+	padding: 22px;
+}
+
+.marketing__in {
+	padding: 36px 0 45px;
+}
+
+.marketing-in__num {
+	font-weight: 700;
+	font-size: 18px;
+	align-self: flex-start;
+	color: #303030;
+}
+
+.marketing-in__text {
+	font-weight: 700;
+	font-size: 18px;
+
+	color: #303030;
+}

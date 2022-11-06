@@ -1,0 +1,30 @@
+.faq__item {
+	margin-bottom: 7px;
+	background: rgba(42, 42, 42, 0.73);
+	padding: 23px;
+	font-weight: 700;
+	font-size: 17px;
+	/* identical to box height */
+	color: #FFFFFF;
+	cursor: pointer;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	img {
+		width: 15px;
+		height: 15px;
+	}
+}
+
+.faq {
+	background-image: url('../img/bg-main.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 55px 0;
+}
+
+.faq__main {
+	margin-top: 43px;
+}
