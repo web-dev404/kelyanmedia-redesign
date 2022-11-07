@@ -53,6 +53,11 @@ button {
 
 .pos-r {
   position: relative;
+  padding-left: 50px !important;
+
+  @media($media_lg3) {
+    padding-left: 0 !important;
+  }
 }
 
 .title {
@@ -76,6 +81,7 @@ button {
 
     @media($media_sm2) {
       font-size: 26px;
+      text-align: center;
     }
 }
 
@@ -107,12 +113,4 @@ button {
 
 .flex-grow {
   flex-grow: 1;
-}
-
-.section {
-  padding-left: 50px !important;
-
-  @media($media_lg3) {
-    padding-left: 0 !important;
-  }
 }
