@@ -2,6 +2,15 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	margin-top: 45px;
+
+	@media($media_md2) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media($media_sm2) {
+		grid-template-columns: 1fr;
+		grid-gap: 12px;
+	}
 }
 
 .cases {
@@ -70,6 +79,10 @@
 		background: rgba(0, 0, 0, .4);
 		z-index: 1;
 	}
+	
+	@media($media_lg3) {
+		height: 230px;
+	}
 }
 
 .cases__type,
@@ -95,4 +108,8 @@
 
 	color: #303030;
 
+
+	@media($media_sm2) {
+		background: transparent;
+	}
 }

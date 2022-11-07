@@ -99,6 +99,10 @@ button {
   @media($media_lg2) {
     font-size: 40px;
   }
+
+  @media($media_sm) {
+    font-size: 30px;
+  }
 }
 
 .h1__top {
