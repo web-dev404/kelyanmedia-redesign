@@ -53,11 +53,6 @@ button {
 
 .pos-r {
   position: relative;
-  padding-left: 50px !important;
-
-  @media($media_lg3) {
-    padding-left: 0 !important;
-  }
 }
 
 .title {
@@ -75,14 +70,14 @@ button {
     text-align: left;
   }
 
-    @media($media_md2) {
-      font-size: 30px;
-    }
+  @media($media_md2) {
+    font-size: 30px;
+  }
 
-    @media($media_sm2) {
-      font-size: 26px;
-      text-align: center;
-    }
+  @media($media_sm2) {
+    font-size: 26px;
+    text-align: center;
+  }
 }
 
 .h1 {
@@ -113,4 +108,12 @@ button {
 
 .flex-grow {
   flex-grow: 1;
+}
+
+.section {
+  padding-left: 50px !important;
+
+  @media($media_lg3) {
+    padding-left: 0 !important;
+  }
 }
