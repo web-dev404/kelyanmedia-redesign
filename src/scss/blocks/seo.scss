@@ -11,6 +11,14 @@
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 48px 15px;
+
+	@media($media_md2) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media($media_xs) {
+		grid-template-columns: 1fr;
+	}
 }
 
 .seo-how__title {
@@ -34,6 +42,10 @@
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 10px;
+
+	@media($media_sm) {
+		grid-template-columns: 1fr;
+	}
 }
 
 .seo-price__item {
@@ -46,6 +58,10 @@
 
 		color: #151515;
 
+	}
+
+	@media($media_md2) {
+		padding: 15px;
 	}
 }
 
@@ -61,8 +77,14 @@
 	border: 6px solid #BDC8DA;
 	background: #303030;
 	border-radius: 50%;
-	width: 61px;
-	height: 61px;
+	min-width: 61px;
+	min-height: 61px;
+	max-width: 61px;
+	max-height: 61px;
+
+	@media($media_md2) {
+		margin-right: 10px;
+	}
 }
 
 .seo__price {

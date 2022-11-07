@@ -78,6 +78,11 @@ button {
     font-size: 26px;
     text-align: center;
   }
+
+  @media($media_xs) {
+    font-size: 22px;
+    text-align: center;
+  }
 }
 
 .h1 {

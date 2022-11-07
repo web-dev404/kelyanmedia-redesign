@@ -8,6 +8,7 @@ import tabs from './modules/tabs.js';
 import burger from './modules/burger.js';
 import select from './modules/select.js';
 import nums from './modules/nums.js';
+import faq from './modules/faq.js';
 import AOS from 'aos';
 
 flsFunctions.isWebp();

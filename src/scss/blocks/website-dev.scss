@@ -13,6 +13,10 @@
 		height: 11px;
 		margin-left: 13px;
 	}
+
+	@media($media_sm) {
+		margin-top: 30px;
+	}
 }
 
 .website-dev__text {
@@ -104,6 +108,14 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 42px 14px;
+
+	@media($media_md) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media($media_sm2) {
+		grid-template-columns: 1fr;
+	}
 }
 
 .website-dev-tasks__num {
@@ -131,4 +143,14 @@
 
 .website-dev {
 	font-family: FuturaPT;
+}
+
+.website-dev__main {
+	grid-gap: 30px;
+
+	@media($media_sm) {
+		flex-direction: column;
+		justify-content: flex-start;
+		text-align: center;
+	}
 }
