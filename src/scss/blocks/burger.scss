@@ -114,3 +114,9 @@
 		flex-direction: column-reverse;
 	}
 }
+
+.burger__contact {
+	@media($media_md) {
+		margin-top: 30px;
+	}
+}
