@@ -1,13 +1,14 @@
 html {
-    &.active {
-      overflow: hidden;
-    }
+  &.active {
+    overflow: hidden;
+  }
 }
 
 body {
   overflow-x: hidden;
   position: relative;
   color: $white;
+  background: #F6F6F6;
 
   font-family: p22undergroundcyprobook, sans-serif;
   font-weight: 400;
@@ -108,7 +109,7 @@ button {
   }
 
   @media($media_sm) {
-    font-size: 30px;
+    font-size: 36px;
   }
 }
 

@@ -58,6 +58,10 @@
 		margin-bottom: 0;
 	}
 
+	@media($media_sm) {
+		padding: 0;
+	}
+
 	&--links {
 		&:hover {
 			.burger__hidden {
@@ -65,19 +69,23 @@
 				pointer-events: auto;
 				transform: translateX(0);
 			}
+		}
+
+		@media($media_md) {
+			.burger__hidden {
+				opacity: 1;
+				pointer-events: auto;
+				transform: translateX(0);
+			}
 
 			@media($media_sm) {
-				padding-bottom: 200px;
+				padding-bottom: 160px;
 
 				.burger__hidden {
 					transform: translateY(58px);
 				}
 			}
 		}
-	}
-
-	@media($media_sm) {
-		padding: 0;
 	}
 }
 
