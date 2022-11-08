@@ -19,8 +19,10 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	z-index: 10;
-	padding-top: 42px;
+	padding: 42px 0;
 	display: none;
+	overflow-y: auto;
+	overflow-x: hidden;
 
 	&.active {
 		display: block;
@@ -39,6 +41,10 @@
 		-webkit-text-stroke-width: 1px;
 		-webkit-text-stroke-color: #fff;
 	}
+
+	@media($media_md) {
+		font-size: 40px;
+	}
 }
 
 .burger__item {
@@ -46,17 +52,32 @@
 	padding-right: 270px;
 	font-family: Gilroy;
 	margin-bottom: 20px;
+	transition: all .5s;
 
 	&:last-child {
 		margin-bottom: 0;
 	}
 
-	&:hover {
-		.burger__hidden {
-			opacity: 1;
-			pointer-events: auto;
-			transform: translateX(0);
+	&--links {
+		&:hover {
+			.burger__hidden {
+				opacity: 1;
+				pointer-events: auto;
+				transform: translateX(0);
+			}
+
+			@media($media_sm) {
+				padding-bottom: 200px;
+
+				.burger__hidden {
+					transform: translateY(58px);
+				}
+			}
 		}
+	}
+
+	@media($media_sm) {
+		padding: 0;
 	}
 }
 
@@ -76,8 +97,20 @@
 	transform: translateX(-100%);
 
 	transition: all .5s;
+
+	@media($media_sm) {
+		bottom: 0;
+		right: auto;
+		left: 0;
+		transform: translateX(0) translateY(-100%);
+		font-size: 18px;
+	}
 }
 
 .burger__main {
 	margin-top: 30px;
+
+	@media($media_md) {
+		flex-direction: column-reverse;
+	}
 }

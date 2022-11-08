@@ -1,3 +1,9 @@
+html {
+    &.active {
+      overflow: hidden;
+    }
+}
+
 body {
   overflow-x: hidden;
   position: relative;
@@ -5,10 +11,6 @@ body {
 
   font-family: p22undergroundcyprobook, sans-serif;
   font-weight: 400;
-
-  &.active-body {
-    overflow: hidden;
-  }
 }
 
 h1,

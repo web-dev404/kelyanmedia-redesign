@@ -1,9 +1,9 @@
-const body = document.querySelector('body'),
+const html = document.querySelector('html'),
     checkbox = document.querySelector('.checkbox1'),
     burger = document.querySelector('.burger');
 
 checkbox.addEventListener('click', () => {
     checkbox.classList.toggle('active');
-    body.classList.toggle('active-body');
+    html.classList.toggle('active');
     burger.classList.toggle('active');
 });
