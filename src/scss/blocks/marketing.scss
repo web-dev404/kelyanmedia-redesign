@@ -75,6 +75,15 @@
 	&:last-child {
 		margin-bottom: 0;
 	}
+
+	@media($media_md2) {
+		flex-direction: column-reverse;
+		grid-gap: 20px;
+
+		&--left {
+			flex-direction: column;
+		}
+	}
 }
 
 .marketing-road__title {
@@ -96,6 +105,21 @@
 	&--left {
 		clip-path: polygon(25% 0, 100% 0, 100% 50%, 100% 100%, 25% 100%, 0% 50%);
 		padding-left: 250px;
+	}
+
+	@media($media_lg2) {
+		&--left {
+			padding-left: 150px;
+		}
+	}
+
+	@media($media_md2) {
+		width: 100%;
+		clip-path: polygon(0 0, 90% 0%, 100% 50%, 90% 100%, 0 100%, 0% 50%);
+
+		&--left {
+			padding-left: 32px;
+		}
 	}
 }
 
