@@ -43,7 +43,16 @@
 
 	@media($media_sm) {
 		padding: 20px;
+	}
 
+	&--brandbook {
+		flex-basis: 0 !important;
+		padding: 0 25px;
+		height: 47px;
+
+		svg {
+			margin-left: 15px;
+		}
 	}
 }
 
