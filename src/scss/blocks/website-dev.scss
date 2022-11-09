@@ -5,13 +5,17 @@
 	font-weight: 700;
 	font-size: 15px;
 	margin-top: 63px;
-
+	transition: all .3s;
 	color: #4F6EA4;
 
 	svg {
 		width: 13px;
 		height: 11px;
 		margin-left: 13px;
+
+		path {
+			transition: all .3s;
+		}
 	}
 
 	@media($media_sm) {
