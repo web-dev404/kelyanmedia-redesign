@@ -23,6 +23,12 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 65px 20px;
+
+	@media(max-width: 450px) {
+		grid-template-columns: 1fr;
+		text-align: center;
+		grid-gap: 40px;
+	}
 }
 
 .advantages__main {

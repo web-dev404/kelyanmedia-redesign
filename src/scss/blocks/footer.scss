@@ -9,7 +9,7 @@
 }
 
 .footer__links {
-	grid-gap: 34.5px 0;
+	grid-gap: 12px 0;
 
 	@media($media_sm2) {
 		grid-gap: 10px 0;
@@ -25,7 +25,7 @@
 	}
 	
 	@media($media_sm2) {
-		flex-direction: column;
+		flex-direction: column-reverse;
 		justify-content: flex-start;
 		align-items: flex-start;
 		grid-gap: 20px;
@@ -34,4 +34,20 @@
 
 .footer {
 	padding: 50px 0 80px;
+}
+
+.footer__h3 {
+	font-weight: 700;
+	font-size: 17px;
+	color: #303030;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+.footer__icons {
+	grid-gap: 13px;
+
+	img {
+		width: 20px;
+	}
 }

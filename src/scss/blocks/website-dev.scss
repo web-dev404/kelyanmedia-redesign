@@ -116,7 +116,11 @@
 	position: absolute;
 	bottom: 0;
 	right: 0;
+	max-width: 150px;
 
+	@media($media_sm2) {
+		max-height: 100px;
+	}
 }
 
 .website-dev__tasks {
@@ -189,7 +193,7 @@
 	img {
 		width: 100%;
 	}
-	
+
 	@media($media_md) {
 		display: none;
 	}
@@ -215,7 +219,7 @@
 }
 
 .website-dev-stages__item {
-	font-family: 'Futura PT';
+	font-family: FuturaPT;
 	flex-basis: 18%;
 
 	h3 {
