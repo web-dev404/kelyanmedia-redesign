@@ -21,6 +21,10 @@
 	@media($media_sm) {
 		margin-top: 30px;
 	}
+
+	&--context {
+		margin: 0;
+	}
 }
 
 .website-dev__text {
