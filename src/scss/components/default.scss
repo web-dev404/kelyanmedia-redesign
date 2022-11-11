@@ -43,7 +43,7 @@ button {
     max-width: 750px;
   }
 
-  @media(min-width: 1600px) {
+  @media(min-width: 1200px) {
     max-width: 1230px;
   }
 }
@@ -84,11 +84,19 @@ button {
   @media($media_sm2) {
     font-size: 26px;
     text-align: center;
+
+    &--big {
+      font-size: 28px;
+    }
   }
 
   @media($media_xs) {
     font-size: 22px;
     text-align: center;
+
+    &--big {
+      font-size: 28px;
+    }
   }
 }
 
