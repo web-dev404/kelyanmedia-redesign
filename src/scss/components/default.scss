@@ -12,6 +12,7 @@ body {
 
   font-family: p22undergroundcyprobook, sans-serif;
   font-weight: 400;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -34,6 +35,10 @@ button {
   padding: 0 15px;
   margin: 0 auto;
 
+  @media(min-width: 1200px) {
+    max-width: 1230px;
+  }
+
   &--big {
     max-width: 1300px;
     position: relative;
@@ -41,10 +46,6 @@ button {
 
   &--sm {
     max-width: 750px;
-  }
-
-  @media(min-width: 1200px) {
-    max-width: 1230px;
   }
 }
 
