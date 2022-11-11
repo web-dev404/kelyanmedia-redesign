@@ -42,6 +42,10 @@ button {
   &--sm {
     max-width: 750px;
   }
+
+  @media(min-width: 1600px) {
+    max-width: 1230px;
+  }
 }
 
 .content {
