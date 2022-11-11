@@ -131,6 +131,7 @@
 	}
 
 	@media($media_sm) {
+		height: 268px;
 		&--big {
 			grid-column-start: auto;
 			grid-column-end: auto;
