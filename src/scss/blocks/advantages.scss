@@ -4,7 +4,7 @@
 
 .advantages__number {
 	font-weight: 700;
-	font-size: 45px;
+	font-size: 60px;
 	/* identical to box height */
 
 
@@ -14,7 +14,7 @@
 
 .advantages__text {
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 20px;
 
 	color: #FFFFFF;
 }
@@ -41,7 +41,7 @@
 		}
 	}
 
-	@media(max-width: 550px) {
+	@media(max-width: 600px) {
 		flex-direction: column-reverse;
 		justify-content: flex-start;
 	}

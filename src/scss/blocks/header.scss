@@ -114,6 +114,15 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	width: 400px;
+
+	@media($media_lg) {
+		max-width: 300px;
+	}
+
+	@media($media_md) {
+		max-width: 260px;
+	}
 
 	@media($media_sm) {
 		max-width: 220px;
