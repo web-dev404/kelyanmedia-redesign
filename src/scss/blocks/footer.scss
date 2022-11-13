@@ -83,7 +83,7 @@
 
 	a {
 		font-family: FuturaPT;
-		font-size: 16px;
+		font-size: 18px;
 		text-decoration: underline;
 		color: #858585;
 	}
@@ -109,6 +109,16 @@
 
 .header-main__wrapper {
 	grid-gap: 30px;
+
+	a {
+		font-size: 22px;
+	}
+
+	&--black {
+		a {
+			color: #000;
+		}
+	}
 
 	@media($media_md) {
 		a {

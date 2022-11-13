@@ -46,6 +46,8 @@
 	font-weight: 700;
 	font-size: 20px;
 	color: #FFFFFF;
+	animation: 10s linear 0s normal none infinite running rotate;
+
 
 	@media(max-width: 450px) {
 		margin-top: 130px;
@@ -59,7 +61,6 @@
 	max-width: 524px;
 	z-index: -1;
 
-	animation: 10s linear 0s normal none infinite running rotate;
 }
 
 @keyframes rotate {
@@ -127,7 +128,7 @@
 	p {
 		font-family: FuturaPT;
 		font-weight: 400;
-		font-size: 16px;
+		font-size: 18px;
 		max-width: 530px;
 		color: #858585;
 	}
@@ -187,7 +188,7 @@
 
 .smm-plus__text {
 	margin-top: 25px;
-	font-size: 16px;
+	font-size: 18px;
 
 
 	color: #FFFFFF;
@@ -203,7 +204,7 @@
 .smm-advantages__nums {
 	margin-left: 28px;
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 18px;
 	display: flex;
 	flex-direction: column;
 	grid-gap: 30px 0;
@@ -217,7 +218,7 @@
 }
 
 .smm-advantages__text {
-	font-size: 16px;
+	font-size: 18px;
 
 
 	color: #858585;
