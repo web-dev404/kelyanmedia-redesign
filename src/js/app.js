@@ -109,3 +109,12 @@ const swiper4 = new Swiper('.good-slider', {
 		}
 	}
 });
+
+const blogItem = document.querySelectorAll('.blog__item');
+
+blogItem.forEach(item => {
+	item.addEventListener('click', (e) => {
+		console.log(e.target);
+		e.target.classList.toggle('active');
+	})
+})

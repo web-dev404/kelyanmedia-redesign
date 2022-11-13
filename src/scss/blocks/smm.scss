@@ -58,6 +58,18 @@
 	right: 0;
 	max-width: 524px;
 	z-index: -1;
+
+	animation: 10s linear 0s normal none infinite running rotate;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
 }
 
 .smm__hot {

@@ -23,6 +23,10 @@
 	text-align: center;
 	padding: 30px;
 
+	div {
+		pointer-events: none;
+	}
+
 	&--big {
 		grid-row-start: 1;
 		grid-row-end: 3;
@@ -131,7 +135,7 @@
 	}
 
 	@media($media_sm) {
-		height: 268px;
+		height: 300px;
 		&--big {
 			grid-column-start: auto;
 			grid-column-end: auto;
@@ -184,13 +188,23 @@
 		width: 95%;
 		height: 93%;
 		background: #4F6EA4;
-		z-index: 2;
+		z-index: 3;
 		opacity: 0;
 
 		transition: all .3s;
 	}
 
 	&:hover {
+		&:after {
+			opacity: 1;
+		}
+
+		.blog__bottom {
+			opacity: 1;
+		}
+	}
+
+	&.active {
 		&:after {
 			opacity: 1;
 		}
@@ -213,7 +227,7 @@
 
 .blog-item__content {
 	position: relative;
-	z-index: 3;
+	z-index: 4;
 	font-family: SFUIDisplay;
 	display: flex;
 	align-items: center;

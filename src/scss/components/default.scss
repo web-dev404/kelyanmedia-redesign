@@ -42,6 +42,11 @@ button {
   &--big {
     max-width: 1300px;
     position: relative;
+
+    @media($media_md) {
+      flex-direction: column;
+      text-align: center;
+    }
   }
 
   &--sm {

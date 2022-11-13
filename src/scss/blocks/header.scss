@@ -3,6 +3,29 @@
 	width: 100%;
 	min-height: 100vh;
 	height: 100%;
+	font-family: FuturaPT !important;
+	overflow-x: hidden;
+
+	.smm__title {
+		color: #EDEDED;
+
+		@media(max-width: 1300px) {
+			font-size: 70px;
+			line-height: 140%;
+		}
+
+		@media(max-width: 700px) {
+			font-size: 50px;
+		}
+
+		@media(max-width: 500px) {
+			font-size: 40px;
+		}
+	}
+	
+	.smm__smm {
+		-webkit-text-stroke-color: #EDEDED !important;
+	}
 }
 
 // burger
@@ -82,6 +105,7 @@
 	transform: rotate(45deg);
 	transform-origin: 5%;
 	width: 41px;
+	background-color: $white;
 
 }
 
@@ -100,6 +124,7 @@
 	transform-origin: 5%;
 	transform: rotate(-45deg);
 	width: 41px;
+	background-color: $white;
 }
 
 
