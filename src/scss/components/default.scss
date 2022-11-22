@@ -159,3 +159,23 @@ button {
     padding-left: 0 !important;
   }
 }
+
+.error {
+  font-family: FuturaPT;
+
+  h1 {
+    font-weight: 700;
+    font-size: 44px;
+
+    color: #303030;
+  }
+
+  .contact__btn {
+    margin-top: 85px;
+    padding: 18px 33px;
+  }
+
+  img {
+    max-width: 500px;
+  }
+}

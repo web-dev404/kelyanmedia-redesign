@@ -10,6 +10,7 @@ import select from './modules/select.js';
 import nums from './modules/nums.js';
 import faq from './modules/faq.js';
 import smoothScroll from './modules/smooth-scroll.js';
+import modal from './modules/modal.js';
 import AOS from 'aos';
 
 flsFunctions.isWebp();

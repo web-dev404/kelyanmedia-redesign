@@ -14,7 +14,8 @@ if (document.querySelector('.modal')) {
     }
 
     modalTrigger.forEach(item => {
-        item.addEventListener('click', () => {
+        item.addEventListener('click', (e) => {
+            e.preventDefault();
             openModalWindow();
         });
     });

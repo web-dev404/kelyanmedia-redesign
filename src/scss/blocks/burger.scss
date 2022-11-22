@@ -2,7 +2,7 @@
 	font-family: SFUIDisplay;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 20px;
 	margin-bottom: 7px;
 
 	color: #666666;
@@ -10,9 +10,11 @@
 }
 
 .burger-contact__value {
+	font-size: 20px;
+
 	img {
-		width: 50px;
-		height: 50px;
+		width: 60px;
+		height: 60px;
 	}
 }
 
@@ -27,12 +29,16 @@
 	background-size: cover;
 	z-index: 10;
 	padding: 42px 0;
-	display: none;
+	visibility: hidden;
+	opacity: 0;
 	overflow-y: auto;
 	overflow-x: hidden;
 
+	transition: all .2s ease-in-out .3s;
+
 	&.active {
-		display: block;
+		visibility: visible;
+		opacity: 1;
 	}
 }
 
@@ -138,5 +144,45 @@
 .burger__contact {
 	@media($media_md) {
 		margin-top: 30px;
+	}
+}
+
+.round {
+	width: 200px;
+	height: 200px;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: -500px;
+	right: -500px;
+	z-index: 100;
+	display: none;
+
+	animation-name: round;
+	animation-play-state: paused;
+	animation-duration: .4s;
+	animation-timing-function: ease-in;
+
+	&.active {
+		display: block;
+		animation-play-state: running;
+	}
+}
+
+@keyframes round {
+	0% {
+		width: 200px;
+		height: 200px;
+		opacity: 1;
+	}
+
+	90% {
+		opacity: 1;
+	}
+
+	100% {
+		width: 200vw;
+		height: 200vh;
+		opacity: 0;
 	}
 }
