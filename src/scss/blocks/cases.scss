@@ -9,7 +9,7 @@
 
 	@media($media_sm2) {
 		grid-template-columns: 1fr;
-		grid-gap: 12px;
+		grid-gap: 0;
 	}
 }
 
@@ -102,7 +102,7 @@
 	}
 	
 	@media($media_lg3) {
-		height: 230px;
+		height: 300px;
 	}
 }
 
