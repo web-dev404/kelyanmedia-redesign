@@ -46,6 +46,16 @@
 	transition: .3s ease-in-out;
 	line-height: 150%;
 
+	a {
+		&:hover {
+			color: #000;
+		}
+	}
+	
+	a {
+		transition: all .2s;
+	}
+
 	@media($media_xs) {
 		font-size: 15px;
 	}

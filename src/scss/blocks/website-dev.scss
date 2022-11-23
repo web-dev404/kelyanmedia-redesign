@@ -8,6 +8,19 @@
 	transition: all .3s;
 	color: #4F6EA4;
 
+	&:hover {
+		background: #4F6EA4;
+		color: #fff;
+
+		path {
+			stroke: #fff;
+		}
+	}
+
+	path {
+		transition: all .3s;
+	}
+
 	svg {
 		width: 13px;
 		height: 11px;
@@ -100,10 +113,14 @@
 .website-dev-types__link {
 	font-weight: 700;
 	font-size: 15px;
-
+transition: all .2s;
 	color: #4F6EA4;
 	position: relative;
 	text-transform: uppercase;
+
+	&:hover {
+		color: #fff;
+	}
 
 	&:after {
 		content: '';

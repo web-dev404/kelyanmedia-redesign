@@ -256,6 +256,13 @@
 	border-radius: 45px;
 	padding: 12px 31px;
 	margin-top: 10px;
+
+	transition: all .3s;
+
+	&:hover {
+		color: #fff;
+		background: #76B8B7;
+	}
 }
 
 .brandbook__contact {

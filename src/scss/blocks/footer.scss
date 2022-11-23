@@ -2,10 +2,13 @@
 	font-weight: 400;
 	font-size: 21px;
 	/* identical to box height */
-
+transition: all .2s;
 
 	color: #858585;
 
+	&:hover {
+		color: rgb(79, 110, 164);
+	}
 }
 
 .footer__links {
@@ -86,6 +89,10 @@
 		font-size: 18px;
 		text-decoration: underline;
 		color: #858585;
+
+			&:hover {
+				text-decoration: none;
+			}
 	}
 }
 
@@ -115,6 +122,11 @@
 
 	a {
 		font-size: 22px;
+		transition: all .3s;
+
+		&:hover {
+			color: rgb(79, 110, 164);
+		}
 	}
 
 	&--black {

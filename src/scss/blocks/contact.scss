@@ -38,6 +38,8 @@
 	font-size: 17px;
 	height: 57px;
 
+	transition: all .3s;
+
 	color: #4F6EA4;
 	border-radius: 45px;
 
@@ -52,6 +54,19 @@
 
 		svg {
 			margin-left: 15px;
+		}
+
+		&:hover {
+			color: #fff;
+			background: #4F6EA4;
+
+			path {
+				stroke: #fff;
+			}
+		}
+
+		path {
+			transition: all .3s;
 		}
 	}
 }

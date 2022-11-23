@@ -4,7 +4,7 @@
 	flex-wrap: wrap;
 
 	h3 {
-		font-size: 15px;
+		font-size: 18px;
 		color: #858585;
 	}
 
@@ -16,6 +16,10 @@
 
 	@media($media_md2) {
 		gap: 20px 50px;
+	}
+
+	@media($media_sm2) {
+		flex-direction: column;
 	}
 }
 
@@ -37,9 +41,22 @@
 	align-items: center;
 	justify-content: center;
 	padding: 20px;
+	transition: all .3s;
 
 	svg {
 		margin-left: 10px;
+	}
+
+	&:hover {
+		background: linear-gradient(100.1deg, #FF31B0 -52.26%, #4D50FB 100.3%);
+
+		path {
+			fill: #fff !important;
+		}
+	}
+
+	path {
+		transition: all .3s;
 	}
 
 	&.active {
@@ -86,9 +103,13 @@
 	}
 
 	p {
-		font-size: 15px;
+		font-size: 18px;
 		max-width: 360px;
 		color: #858585;
+	}
+
+	img {
+		max-width: 620px;
 	}
 
 	@media($media_lg2) {
@@ -107,5 +128,10 @@
 		align-items: center;
 		flex-direction: column-reverse;
 		text-align: center;
+
+		img {
+			max-width: 100%;
+			width: 100%;
+		}
 	}
 }
