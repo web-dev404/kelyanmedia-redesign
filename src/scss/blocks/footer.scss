@@ -102,6 +102,10 @@
 		&:hover {
 			text-decoration: none;
 		}
+
+		@media($media_sm) {
+			font-size: 14px;
+		}
 	}
 }
 
