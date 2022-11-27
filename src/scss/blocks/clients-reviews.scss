@@ -42,12 +42,7 @@
 }
 
 .clients-reviews__main {
-	grid-gap: 60px 10px;
 	margin-top: 40px;
-
-	@media($media_lg) {
-		flex-direction: column;
-	}
 }
 
 .reviews {

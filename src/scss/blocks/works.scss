@@ -13,7 +13,7 @@
 	font-weight: 400;
 	font-size: 15px;
 	padding: 0 45px;
-
+	transition: all .3s;
 	color: #858585;
 
 
@@ -21,6 +21,11 @@
 		background: #4F6EA4;
 		color: $white;
 		font-weight: 700;
+	}
+
+	&:hover {
+		background: #4F6EA4;
+		color: $white;
 	}
 }
 

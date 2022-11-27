@@ -2,12 +2,16 @@
 	font-weight: 400;
 	font-size: 21px;
 	/* identical to box height */
-transition: all .2s;
+	transition: all .2s;
 
 	color: #858585;
 
 	&:hover {
 		color: rgb(79, 110, 164);
+	}
+
+	@media($media_sm) {
+		font-size: 17px;
 	}
 }
 
@@ -63,6 +67,11 @@ transition: all .2s;
 	color: #303030;
 	text-transform: uppercase;
 	margin-bottom: 5px;
+
+	@media($media_sm) {
+		margin: 0;
+		font-size: 18px;
+	}
 }
 
 .footer__icons {
@@ -86,13 +95,13 @@ transition: all .2s;
 
 	a {
 		font-family: FuturaPT;
-		font-size: 18px;
+		font-size: 16px;
 		text-decoration: underline;
 		color: #858585;
 
-			&:hover {
-				text-decoration: none;
-			}
+		&:hover {
+			text-decoration: none;
+		}
 	}
 }
 
