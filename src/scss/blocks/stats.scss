@@ -1,0 +1,48 @@
+.stats {
+	background: #35B200;
+	padding: 80px 0;
+}
+
+.stats__main {
+	margin-top: 60px;
+	gap: 50px 0;
+
+	@media($media_sm2) {
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+}
+
+.stats__item {
+	flex-basis: 33%;
+	text-align: center;
+
+	h3 {
+		font-weight: 700;
+		font-size: 60px;
+		color: #FFFFFF;
+	}
+
+	p {
+		font-size: 30px;
+		color: #E7E7E7;
+	}
+
+	@media($media_lg2) {
+		h3 {
+			font-size: 40px;
+		}
+
+		p {
+			font-size: 24px;
+		}
+	}
+
+	@media($media_md2) {
+		flex-basis: 49%;
+
+		p {
+			font-size: 20px;
+		}
+	}
+}
