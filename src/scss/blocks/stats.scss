@@ -1,6 +1,21 @@
 .stats {
 	background: #35B200;
 	padding: 80px 0;
+
+	.stats__img {
+		margin-top: 70px;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 40px;
+
+		@media($media_lg) {
+			grid-gap: 20px;
+		}
+
+		@media($media_md) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
 }
 
 .stats__main {
@@ -19,12 +34,12 @@
 
 	h3 {
 		font-weight: 700;
-		font-size: 60px;
+		font-size: 50px;
 		color: #FFFFFF;
 	}
 
 	p {
-		font-size: 30px;
+		font-size: 24px;
 		color: #E7E7E7;
 	}
 

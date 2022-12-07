@@ -120,3 +120,15 @@ blogItem.forEach(item => {
 		e.target.classList.toggle('active');
 	})
 })
+
+const textBlockBtns = document.querySelectorAll('.text-block__btn'),
+	textBlockText = document.querySelector('.text-block__text');
+
+textBlockBtns.forEach(item => {
+	item.addEventListener('click', (e) => {
+		e.preventDefault();
+
+		textBlockText.classList.toggle('active');
+		textBlockBtns.forEach(item => item.classList.toggle('active'));
+	});
+})
