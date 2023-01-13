@@ -1,7 +1,7 @@
 
 # Frontend Part for Digital Agency Company
 
-The task was to move the site from Next.js on HTML, SCSS and Javascript and make a modern frontend.
+The task was to move the site from Next.js to HTML, SCSS and Javascript and make a modern frontend.
 
 On this project, I got a lot of experience working with Next.js
 
