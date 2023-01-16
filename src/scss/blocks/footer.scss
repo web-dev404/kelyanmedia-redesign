@@ -38,6 +38,10 @@
 	grid-gap: 70px;
 	font-family: FuturaPT;
 
+	picture {
+		display: none;
+	}
+
 	@media($media_md) {
 		grid-gap: 50px 20px;
 	}
@@ -48,9 +52,12 @@
 		align-items: flex-start;
 		grid-gap: 20px;
 
+		picture {
+			display: block;
+		}
+
 		.logo {
 			display: none;
-			visibility: hidden;
 		}
 
 		.footer__logo {
