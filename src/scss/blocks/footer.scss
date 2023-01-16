@@ -16,11 +16,19 @@
 }
 
 .footer__links {
-	grid-gap: 12px 0;
+	grid-gap: 6px 0;
+
+	&--hidden {
+		display: none;
+	}
 
 	@media($media_sm2) {
 		grid-gap: 10px 0;
 		width: 100%;
+
+			&--hidden {
+		display: block;
+	}
 
 		&--flex {
 			flex-direction: row;
