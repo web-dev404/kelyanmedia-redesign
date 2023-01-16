@@ -37,7 +37,7 @@
 	text-align: center;
 
 	@media(max-width: 500px) {
-		top: 20%;
+		top: 15%;
 	}
 }
 
@@ -94,6 +94,10 @@
 	@media(max-width: 600px) {
 		font-size: 80px;
 		line-height: 100%;
+
+		&--margin {
+			margin-top: -20px;
+		}
 	}
 }
 
