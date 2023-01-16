@@ -95,7 +95,8 @@
 	z-index: 1;
 
 	@media($media_lg3) {
-		display: none;
+		width: 50px;
+		left: 128%;
 	}
 
 	&--header {
@@ -185,7 +186,8 @@
 	z-index: 1;
 
 	@media($media_lg3) {
-		display: none;
+		width: 50px;
+		right: -34%;
 	}
 
 	&--header {
