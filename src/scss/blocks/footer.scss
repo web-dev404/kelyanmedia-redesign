@@ -30,6 +30,7 @@
 }
 
 .footer__logo {
+	visibility: hidden;
 	display: none;
 }
 
@@ -49,6 +50,7 @@
 
 		.logo {
 			display: none;
+			visibility: hidden;
 		}
 
 		.footer__logo {
